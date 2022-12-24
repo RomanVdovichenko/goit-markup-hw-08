@@ -1,0 +1,43 @@
+
+.container_on-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+// 480 +
+@media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;       
+    }
+}
+
+// 768 +
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+// 1200 +
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+   .mobail-menu__container {
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    } 
+}

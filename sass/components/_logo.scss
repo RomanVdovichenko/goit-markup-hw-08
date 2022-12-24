@@ -1,0 +1,48 @@
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: var(--bold-font);
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;  
+    color: var(--accent-color);
+}
+
+.header__logo_on-light {
+    color: #000000;
+}
+
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.footer__logo_on-dark {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1199px) {
+   .footer__logo {
+     text-align: center;
+   }
+}
+
+// 768 +
+@media screen and (min-width: 768px) {
+    .header__logo {
+        margin-right: 88px;
+    }   
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    }
+    
+    .header__logo {
+        margin-right: 92px;
+    }
+}
+
